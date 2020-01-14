@@ -1,0 +1,42 @@
+.navbar{
+    border-bottom: solid 1px blue;
+    display: -webkit-inline-box;
+    position:absolute;
+    right:50px;
+}
+a:active{
+    color: blue;
+}
+a {padding: 20px;}
+.myNav{
+    list-style: none;
+    position: relative;
+    display: flex;
+   
+}
+.drop-down{
+    list-style: none;
+    display: none;  
+    position: absolute;
+    top:48px;
+    border:solid 1px blue;
+    width:200px;
+    padding: 5px;
+   
+
+    
+        
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    color:#42A6EF;
+    text-decoration: none;
+   
+}
+.sub-menu:hover .drop-down{
+    display: block;
+   
+}
